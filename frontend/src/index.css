@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #f8f1de 0%, #f6f2e9 40%, transparent 60%),
+    radial-gradient(900px 500px at 90% -20%, #e4eef6 0%, #f6f2e9 45%, transparent 65%),
+    linear-gradient(180deg, #f6f2e9 0%, #f3efe6 100%);
+  color: #1e1b16;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(24, 23, 21, 0.08);
+  box-shadow: 0 20px 60px rgba(20, 18, 14, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(90deg, rgba(30, 27, 22, 0.04) 1px, transparent 1px),
+    linear-gradient(rgba(30, 27, 22, 0.04) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.price-pill {
+  background: #1e1b16;
+  color: #f6f2e9;
+}
